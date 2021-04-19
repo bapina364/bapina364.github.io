@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/animate (1).css">
+    <title>Navigation bar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="350">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light top-nav fixed-top">
+        <a href="#" class="navbar-brand">
+            <img src="images/logo.png" alt="logo" width="40px" class="logo">
+            wapdevlopers.com
+        </a>
+        <button type="button" data-toggle="collapse" data-target="#slider" class="navbar-toggler"><!--to remove icons from desktop-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="slider">
+
+            <ul class="navbar-nav top-menu"> 
+                <li class="list-item active"><a href="#home" class="nav-link active link">Home</a></li>
+                <li class="list-item"><a href="#service" class="nav-link link">Services</a></li>
+                <li class="list-item"><a href="#clients" class="nav-link link">Clients</a></li>
+                <li class="list-item"><a href="#pricing" class="nav-link link">Pricing</a></li>
+                <li class="list-item"><a href="#contact" class="nav-link link">Contact us</a></li>
+                <li class="list-item"><a href="#account" class="nav-link" data-toggle="modal">Accout</a></li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto"> 
+                <li class="list-item"><a href="#" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-item"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-item"><a href="#" class="nav-link"><i class="fa fa-google"></i></a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- start top header -->
+    <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="container text-center">
+            <h1 class="animated fadeIn">WAP MOBILE APP DEVLOPEMENT</h1>
+            <p class="animated fadeIn slower">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
+               ducimus dolorem quisquam, illo facilis explicabo corporis quasi 
+               porro incidunt, possimus excepturi! Laborum, nisi tempore repudiandae
+               voluptatibus nulla ipsum deleniti minima fugit, accusamus voluptas 
+               provident atque numquam modi, aperiam totam natus eos similique! Architecto 
+               similique corporis reprehenderit ratione debitis quaerat. Nulla.
+            </p>
+            <img src="/images/mobile.png" alt="logo" width="80%" class="animated slideInUp">
+        </div>
+    </div>
+    <!-- end top header -->
+
+    <!-- start services -->
+    <div class="jumbotron jumbotron-fluid bg-light text-center" id="service">
+        <h1 class="main-font service-header">SERVICES</h1>
+        <div class="row">
+            <div class="col-md-4 servics-col">
+                <i class="fa fa-code service-icon"></i>
+                <h4>Mobile App Devlopement</h4>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque quibusdam voluptate
+                    nisi a corrupti fugiat itaque libero temporibus optio quas?
+                </span>
+            </div>
+            <div class="col-md-4 servics-col">
+                <i class="fa fa-code service-icon"></i>
+                <h4>Android App Devlopement</h4>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque quibusdam voluptate
+                    nisi a corrupti fugiat itaque libero temporibus optio quas?
+                </span>
+            </div>
+            <div class="col-md-4 servics-col">
+                <i class="fa fa-code service-icon"></i>
+                <h4>Mobile App Devlopement</h4>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque quibusdam voluptate
+                    nisi a corrupti fugiat itaque libero temporibus optio quas?
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+
+    <!-- start clients -->
+    <div class="jumbotron jumbotron-fluid container" id="clients">
+        <h1 class="main-font text-center" style="margin-bottom: 30px;">CLIENTS</h1>
+        <div id="myclient" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myclients active" data-slide-to="0"></li>
+                <li data-target="#myclients" data-slide-to="1"></li>
+                <li data-target="#myclients" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <div class="client-pic mx-auto">
+                        <img src="images/a.jpg" alt="model" width="100%">
+                    </div>
+                    <h3>MS AJ DAS</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit cum nesciunt consequuntur <br class="d-none d-lg-block"> natus laudantium eum omnis minima placeat cumque.</span>
+                    <br>
+                    <a href="#"><i class="fa fa-facebook client-icon"></i></a>
+                    <a href="#"><i class="fa fa-twitter client-icon"></i></a>
+                    <a href="#"><i class="fa fa-google client-icon"></i></a>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="client-pic mx-auto">
+                        <img src="images/a.jpg" alt="model" width="100%">
+                    </div>
+                    <h3>MS AJ DAS</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit cum nesciunt consequuntur <br class="d-none d-lg-block"> natus laudantium eum omnis minima placeat cumque.</span>
+                    <br>
+                    <a href="#"><i class="fa fa-facebook client-icon"></i></a>
+                    <a href="#"><i class="fa fa-twitter client-icon"></i></a>
+                    <a href="#"><i class="fa fa-google client-icon"></i></a>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="client-pic mx-auto">
+                        <img src="images/a.jpg" alt="model" width="100%">
+                    </div>
+                    <h3>MS AJ DAS</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, velit cum nesciunt consequuntur <br class="d-none d-lg-block"> natus laudantium eum omnis minima placeat cumque.</span>
+                    <br>
+                    <a href="#"><i class="fa fa-facebook client-icon"></i></a>
+                    <a href="#"><i class="fa fa-twitter client-icon"></i></a>
+                    <a href="#"><i class="fa fa-google client-icon"></i></a>
+                </div>
+            </div>
+            <a role="button" class="carousel-control-prev" href="#myclient" data-slide="prev">
+                <i class="fa fa-chevron-left" style="color: black;font-size: 20px;"></i>
+            </a>
+
+            <a role="button" class="carousel-control-next" href="#myclient" data-slide="next">
+                <i class="fa fa-chevron-right" style="color: black;font-size: 20px;"></i>
+            </a>
+        </div>
+    </div>
+    <!-- end clients -->
+
+    <!-- start pricing -->
+    <div class="jumbotron jumbotron-fluid bg-light" id="pricing">
+        <h1 class="main-font text-center" style="margin-bottom: 30px;">PRICING</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-5 px-5">
+                    <div class="card text-center wow slideInLeft">
+                        <div class="card-header bg-danger text-light">
+                            <h5>STARTER PLANS</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1>$10 /MO</h1>
+                            <hr>
+                            <span>STATIC APP</span>
+                            <hr>
+                            <span>SPECIALITY FOR ANDROID</span>
+                            <hr>
+                            <span>LOAD TIME FASTER</span>
+                            <hr>
+                            <span>NO CUSTOMER SUPPORTS</span>
+                            <hr>
+                            <span>PAID MAINTAINACE</span>
+                        </div>
+                        <div class="card-footer bg-danger text-light">
+                            <button class="btn bg-light p-2"><a href="#" class="text-decoration-none text-dark">More Info</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-5 px-5">
+                    <div class="card text-center wow slideInUp">
+                        <div class="card-header bg-primary text-light">
+                            <h5>STARTER PLANS</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1>$10 /MO</h1>
+                            <hr>
+                            <span>STATIC APP</span>
+                            <hr>
+                            <span>SPECIALITY FOR ANDROID</span>
+                            <hr>
+                            <span>LOAD TIME FASTER</span>
+                            <hr>
+                            <span>NO CUSTOMER SUPPORTS</span>
+                            <hr>
+                            <span>PAID MAINTAINACE</span>
+                        </div>
+                        <div class="card-footer bg-primary text-light">
+                            <button class="btn bg-light p-2"><a href="#" class="text-decoration-none text-dark">More Info</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-5 px-5">
+                    <div class="card text-center wow slideInRight">
+                        <div class="card-header bg-warning text-light">
+                            <h5>STARTER PLANS</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1>$10 /MO</h1>
+                            <hr>
+                            <span>STATIC APP</span>
+                            <hr>
+                            <span>SPECIALITY FOR ANDROID</span>
+                            <hr>
+                            <span>LOAD TIME FASTER</span>
+                            <hr>
+                            <span>NO CUSTOMER SUPPORTS</span>
+                            <hr>
+                            <span>PAID MAINTAINACE</span>
+                        </div>
+                        <div class="card-footer bg-warning text-light">
+                            <button class="btn bg-light p-2"><a href="#" class="text-decoration-none text-dark">More Info</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end pricing -->
+
+    <!-- start footer -->
+    <div class="jumbotron jumbotron-fluid bg-warning mb-0" id="contact">
+        <h1 class="text-center main-font">CONTACT</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 px-5 py-2">
+                    <form action="" >
+                        <div class="form-group">
+                            <label for="username"> Your name</label>
+                            <input type="text" name="username" id="username" class="form-control" itemid="username">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="number">Phone number</label>
+                            <input type="number" name="number" id="number" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email id</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+
+                        <button type="button" class="btn bg-primary text-light">Send us</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4 px-5 py-2">
+                    <h5 class="mb-0">Address</h5>
+                    <address>
+                        INDIRA NAGAR, BENGALURU, KARNATAKA 756042
+                    </address>
+
+                    <h5 class="mb-0">Contact number</h5>
+                    <address>+91 919999902022, +91 6363636363</address>
+
+                    <h5 class="mb-0">Website</h5>
+                    <address>www.wapdevlopers.com</address>
+
+                    <h5 class="mb-0">Email id</h5>
+                    <address>wapdevlopers@gmail.com</address>
+                </div>
+                <div class="col-md-4 px-5 py-2">
+                    <h5 class="mb-0">Follow us</h5>
+                    <i class="fa fa-facebook client-icon text-center bg-light"></i>
+                    <i class="fa fa-twitter client-icon text-center bg-light"></i>
+                    <i class="fa fa-google client-icon text-center bg-light"></i>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- end footer -->
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function(){
+            $(".navbar ul li .link").click(function(e){
+                e.preventDefault();
+                var href_value = this.hash;
+                $("html").animate({
+                    scrollTop:$(href_value).offset().top
+                },500,function(){
+                    window.location.hash = href_value;
+                });
+            });
+        });
+    </script>
+
+    <!-- start modal -->
+    <div class="modal fade" id="account">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a href="#login" class="nav-link active" data-toggle="tab">Login</a></li>
+                        <li class="nav-item"><a href="#signup" class="nav-link" data-toggle="tab">Sign up</a></li>
+                    </ul>
+                    <!-- start tab content -->
+                    <div class="tab-content pt-3">
+                        <div id="login" class="tab-pane active">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username" id="username" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+
+                        <div id="signup" class="tab-pane">
+                            <h1>welcome to signup</h1>
+                        </div>
+
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="rem-check">
+                            <label for="rem-check" class="custom-control-label">Remember me</label>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Login</button>
+                    </div>
+                    <!-- end tab content -->
+                </div>
+                <div class="modal-footer">
+                   <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+    
+</body>
+</html>
